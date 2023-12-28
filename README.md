@@ -15,7 +15,7 @@
 
 
 ## Introduction
-This Guide is for setting up a <b>TDEngine Cluster</b> using docker services on a docker swarm server cluster.
+This Guide is for setting up a TDEngine Cluster using docker services on a docker swarm server cluster.
 
 This guide assumes you have a running Docker Swarm on 3 or more unique/individual linux servers running docker in swarm mode with workers on each of the servers we will be installing TDengine doceker container on.
 
@@ -37,7 +37,7 @@ f1uozkzjfsct5bu2xr3620ih2     foo2.bar.com   Ready     Active         Reachable 
 sf7zwprpt0r6rdpy8pl0a0ste     foo3.bar.com   Ready     Active         Reachable        24.0.7
 ```
 
-You can also tell by the <b>*</b> after the ID that im on the Leader machiene. If the <b>*</b> is on another machiene make sure you STOP and loginto that one before continuing. Also STOP and correct/fix you Docker swarm setup if you do not have 3 Individual nodes with workers avalible on each one.
+You can also tell by the * after the ID that im on the Leader machiene. If the * is on another machiene make sure you STOP and loginto that one before continuing. Also STOP and correct/fix you Docker swarm setup if you do not have 3 Individual nodes with workers avalible on each one.
 
 
 ## TDEngine
