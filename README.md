@@ -304,7 +304,7 @@ foo@foo1:~$ docker service ls
 foo@foo1:~$ docker service logs -f taosadapter
 ```
 
-Testing taosadapter works using curl
+Testing taosadapter works
 
 The TAOS docker service we created called "taosadapter" handles all of the trafic routing to the 3 replicas we created. We don't try to connect to the replicas we connect to the service and it handles the routing.
 
