@@ -28,7 +28,6 @@ In terminal:
 $ docker node ls
 ```
 
-<br>
 You should see your Swarm nodes. Again you need 3 or more nodes running with worker nodes on each. Currently I have 3 manager nodes with workers on each.
 ```
 foo@foo1:~$ docker node ls
@@ -37,7 +36,6 @@ jakycx7c6osl85zihr72msw72 *   foo1.bar.com   Ready     Active         Leader    
 f1uozkzjfsct5bu2xr3620ih2     foo2.bar.com   Ready     Active         Reachable        24.0.7
 sf7zwprpt0r6rdpy8pl0a0ste     foo3.bar.com   Ready     Active         Reachable        24.0.7
 ```
-<br>
 
 You can also tell by the <b>*</b> after the ID that im on the Leader machiene. If the <b>*</b> is on another machiene make sure you STOP and loginto that one before continuing. Also STOP and correct/fix you Docker swarm setup if you do not have 3 Individual nodes with workers avalible on each one.
 <br>
