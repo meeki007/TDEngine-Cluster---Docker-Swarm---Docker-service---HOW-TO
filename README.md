@@ -269,8 +269,8 @@ docker service create \
 --publish published=6041,target=6041,protocol=udp
 --name "taosadapter" \
 --entrypoint taosadapter \
---env TAOS_FIRST_EP=tdengine0 \
---env TAOS_SECOND_EP=tdengine1 \
+--env TAOS_FIRST_EP=tdengine1 \
+--env TAOS_SECOND_EP=tdengine2 \
 --env TZ=UTC \
 tdengine/tdengine:3.2.2.0
 ```
@@ -292,8 +292,8 @@ docker service create \
 --network internalnetwork \
 --name "taosadapter" \
 --entrypoint taosadapter \
---env TAOS_FIRST_EP=tdengine0 \
---env TAOS_SECOND_EP=tdengine1 \
+--env TAOS_FIRST_EP=tdengine1 \
+--env TAOS_SECOND_EP=tdengine2 \
 --env TZ=UTC \
 tdengine/tdengine:3.2.2.0
 ```
