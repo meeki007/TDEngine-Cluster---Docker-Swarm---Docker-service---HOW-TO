@@ -105,7 +105,7 @@ tdengine/tdengine:3.2.2.0
 ```
 
 
-Start service on server foo1.bar.com with a --constraint node.hostname==foo2.bar.com so it runs on that server
+Start service on server foo2.bar.com with a --constraint node.hostname==foo2.bar.com so it runs on that server
 ```
 foo@foo1:~$ docker service create \
 --replicas 1 \
@@ -125,7 +125,7 @@ tdengine/tdengine:3.2.2.0
 ```
 
 
-Start service on server foo1.bar.com with a --constraint node.hostname==foo3.bar.com so it runs on that server
+Start service on server foo3.bar.com with a --constraint node.hostname==foo3.bar.com so it runs on that server
 ```
 foo@foo1:~$ docker service create \
 --replicas 1 \
