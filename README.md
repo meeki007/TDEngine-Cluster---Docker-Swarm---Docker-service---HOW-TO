@@ -27,6 +27,7 @@ In terminal:
 ```
 $ docker node ls
 ```
+
 <br>
 You should see your Swarm nodes. Again you need 3 or more nodes running with worker nodes on each. Currently I have 3 manager nodes with workers on each.
 ```
@@ -42,7 +43,7 @@ You can also tell by the <b>*</b> after the ID that im on the Leader machiene. I
 <br>
 
 ## TDEngine
-<br>
+
 ##### Storage
 First lets setup persistent storage for each unique TDEngine instance we will be running. You will need todo this for each individual server! Don't run these commands all on the same server!
 <br>
